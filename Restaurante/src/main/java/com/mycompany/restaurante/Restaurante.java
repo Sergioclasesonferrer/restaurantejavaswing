@@ -5,7 +5,8 @@
 package com.mycompany.restaurante;
 
 import java.awt.Color;
-import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -20,7 +21,7 @@ public class Restaurante extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -62,82 +63,70 @@ public class Restaurante extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabelNumMesa.setText("En mesa: 0 / 54");
+        jLabelNumMesa.setText("En mesas: 0 / 54");
 
-        jLabelNumBarra.setText("En barra: ");
+        jLabelNumBarra.setText("En barra: 0 / 12");
 
-        jLabelNumRestaurante.setText("En restaurante: 0 / 60");
+        jLabelNumRestaurante.setText("Total en restaurante: 0 / 60");
 
         jLabelMesa1.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa1.setText("Mesa 1");
-        jLabelMesa1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa1.setOpaque(true);
 
         jLabelMesa2.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa2.setText("Mesa 2");
-        jLabelMesa2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa2.setOpaque(true);
 
         jLabelMesa3.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa3.setText("Mesa 3");
-        jLabelMesa3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa3.setOpaque(true);
 
         jLabelMesa4.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa4.setText("Mesa 4");
-        jLabelMesa4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa4.setOpaque(true);
 
         jLabelMesa5.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa5.setText("Mesa 5");
-        jLabelMesa5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa5.setOpaque(true);
 
         jLabelMesa6.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa6.setText("Mesa 6");
-        jLabelMesa6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa6.setOpaque(true);
 
         jLabelMesa7.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa7.setText("Mesa 7");
-        jLabelMesa7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa7.setOpaque(true);
 
         jLabelMesa8.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa8.setText("Mesa 8");
-        jLabelMesa8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa8.setOpaque(true);
 
         jLabelMesa9.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa9.setText("Mesa 9");
-        jLabelMesa9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa9.setOpaque(true);
 
         jLabelMesa10.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa10.setText("Mesa 10");
-        jLabelMesa10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa10.setOpaque(true);
 
         jLabelMesa11.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa11.setText("Mesa 11");
-        jLabelMesa11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa11.setOpaque(true);
 
         jLabelMesa12.setBackground(new java.awt.Color(0, 255, 0));
         jLabelMesa12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelMesa12.setText("Mesa 12");
-        jLabelMesa12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelMesa12.setOpaque(true);
 
         jComboBoxCap1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4" }));
@@ -227,7 +216,6 @@ public class Restaurante extends javax.swing.JFrame {
         jLabelBarra.setBackground(new java.awt.Color(0, 255, 0));
         jLabelBarra.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelBarra.setText("Barra");
-        jLabelBarra.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabelBarra.setOpaque(true);
 
         jComboBoxCapBarra.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
@@ -375,150 +363,311 @@ public class Restaurante extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    int numGlobal = 0;
+    int[] capacidadMesas = {4, 4, 4, 4, 4, 4, 2, 2, 8, 8, 8, 8};
+    int[] ocupacionMesas = new int[12];
+    int personasBarra = 0;
+
+    final int maxSentados = 54;
+    final int maxTotal = 60;
+    final int maxBarra = 12;
+    
+    private JLabel obtenerLabelMesa(int numeroMesa) {
+        switch (numeroMesa) {
+            case 1: return jLabelMesa1;
+            case 2: return jLabelMesa2;
+            case 3: return jLabelMesa3;
+            case 4: return jLabelMesa4;
+            case 5: return jLabelMesa5;
+            case 6: return jLabelMesa6;
+            case 7: return jLabelMesa7;
+            case 8: return jLabelMesa8;
+            case 9: return jLabelMesa9;
+            case 10: return jLabelMesa10;
+            case 11: return jLabelMesa11;
+            case 12: return jLabelMesa12;
+            default: return null;
+        }
+    }
+    
+    private void actualizarContadores() {
+        int totalMesas = 0;
+        int mesasLibres = 0;
+        int mesasOcupadas = 0;
+
+        for (int i = 0; i < ocupacionMesas.length; i++) {
+            totalMesas += ocupacionMesas[i];
+            if (ocupacionMesas[i] == 0) {
+                mesasLibres++;
+            } else {
+                mesasOcupadas++;
+            }
+        }
+
+        int totalRestaurante = totalMesas + personasBarra;
+
+        jLabelNumMesa.setText("En mesas: " + totalMesas + " / " + maxSentados);
+        jLabelNumBarra.setText("En barra: " + personasBarra + " / " + maxBarra);
+        jLabelNumRestaurante.setText("Total en restaurante: " + totalRestaurante + " / " + maxTotal);
+
+        for (int i = 0; i < ocupacionMesas.length; i++) {
+            int ocup = ocupacionMesas[i];
+            JLabel etiqueta = obtenerLabelMesa(i + 1);
+            if (ocup == 0) {
+                etiqueta.setBackground(Color.green);
+            } else if (ocup == capacidadMesas[i]) {
+                etiqueta.setBackground(Color.red);
+            } else {
+                etiqueta.setBackground(Color.yellow);
+            }
+            etiqueta.setOpaque(true);
+        }
+    }
+    
+    private int calcularSentadosSinMesa(int numeroMesa) {
+        int total = 0;
+        for (int i = 0; i < ocupacionMesas.length; i++) {
+            if (i != (numeroMesa - 1)) total += ocupacionMesas[i];
+        }
+        return total;
+    }
     
     private void jComboBoxCap1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap1ActionPerformed
-        refresh();
-        if (jComboBoxCap1.getSelectedItem().toString() == "4") {
-            jLabelMesa1.setBackground(Color.red);
-        } else {
-            jLabelMesa1.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[0];
+        int nuevoValor = Integer.parseInt(jComboBoxCap1.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(1);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap1.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap1.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[0] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap1ActionPerformed
 
     private void jComboBoxCap2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap2ActionPerformed
-        refresh();
-        if (jComboBoxCap2.getSelectedItem().toString() == "4") {
-            jLabelMesa2.setBackground(Color.red);
-        } else {
-            jLabelMesa2.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[1];
+        int nuevoValor = Integer.parseInt(jComboBoxCap2.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(2);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap2.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap2.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[1] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap2ActionPerformed
 
     private void jComboBoxCap3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap3ActionPerformed
-        refresh();
-        if (jComboBoxCap3.getSelectedItem().toString() == "4") {
-            jLabelMesa3.setBackground(Color.red);
-        } else {
-            jLabelMesa3.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[2];
+        int nuevoValor = Integer.parseInt(jComboBoxCap3.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(3);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap3.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap3.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[2] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap3ActionPerformed
 
     private void jComboBoxCap4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap4ActionPerformed
-        refresh();
-        if (jComboBoxCap4.getSelectedItem().toString() == "4") {
-            jLabelMesa4.setBackground(Color.red);
-        } else {
-            jLabelMesa4.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[3];
+        int nuevoValor = Integer.parseInt(jComboBoxCap4.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(4);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap4.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap4.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[3] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap4ActionPerformed
 
     private void jComboBoxCap5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap5ActionPerformed
-        refresh();
-        if (jComboBoxCap5.getSelectedItem().toString() == "4") {
-            jLabelMesa5.setBackground(Color.red);
-        } else {
-            jLabelMesa5.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[4];
+        int nuevoValor = Integer.parseInt(jComboBoxCap5.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(5);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap5.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap5.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[4] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap5ActionPerformed
 
     private void jComboBoxCap6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap6ActionPerformed
-        refresh();
-        if (jComboBoxCap6.getSelectedItem().toString() == "4") {
-            jLabelMesa6.setBackground(Color.red);
-        } else {
-            jLabelMesa6.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[5];
+        int nuevoValor = Integer.parseInt(jComboBoxCap6.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(6);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap6.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap6.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[5] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap6ActionPerformed
 
     private void jComboBoxCap7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap7ActionPerformed
-        refresh();
-        if (jComboBoxCap7.getSelectedItem().toString() == "2") {
-            jLabelMesa7.setBackground(Color.red);
-        } else {
-            jLabelMesa7.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[6];
+        int nuevoValor = Integer.parseInt(jComboBoxCap7.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(7);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap7.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap7.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[6] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap7ActionPerformed
 
     private void jComboBoxCap8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap8ActionPerformed
-        refresh();
-        if (jComboBoxCap8.getSelectedItem().toString() == "2") {
-            jLabelMesa8.setBackground(Color.red);
-        } else {
-            jLabelMesa8.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[7];
+        int nuevoValor = Integer.parseInt(jComboBoxCap8.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(8);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap8.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap8.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[7] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap8ActionPerformed
 
     private void jComboBoxCap9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap9ActionPerformed
-        refresh();
-        if (jComboBoxCap9.getSelectedItem().toString() == "8") {
-            jLabelMesa9.setBackground(Color.red);
-        } else {
-            jLabelMesa9.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[8];
+        int nuevoValor = Integer.parseInt(jComboBoxCap9.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(9);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap9.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap9.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[8] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap9ActionPerformed
 
     private void jComboBoxCap10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap10ActionPerformed
-        refresh();
-        if (jComboBoxCap10.getSelectedItem().toString() == "8") {
-            jLabelMesa10.setBackground(Color.red);
-        } else {
-            jLabelMesa10.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[9];
+        int nuevoValor = Integer.parseInt(jComboBoxCap10.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(10);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap10.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap10.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[9] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap10ActionPerformed
 
     private void jComboBoxCap11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap11ActionPerformed
-        refresh();
-        if (jComboBoxCap11.getSelectedItem().toString() == "8") {
-            jLabelMesa11.setBackground(Color.red);
-        } else {
-            jLabelMesa11.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[10];
+        int nuevoValor = Integer.parseInt(jComboBoxCap11.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(11);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap11.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap11.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[10] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap11ActionPerformed
 
     private void jComboBoxCap12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCap12ActionPerformed
-        refresh();
-        if (jComboBoxCap12.getSelectedItem().toString() == "8") {
-            jLabelMesa12.setBackground(Color.red);
-        } else {
-            jLabelMesa12.setBackground(Color.green);
+        int valorAnterior = ocupacionMesas[11];
+        int nuevoValor = Integer.parseInt(jComboBoxCap12.getSelectedItem().toString());
+        int totalAntes = calcularSentadosSinMesa(12);
+        if (totalAntes + nuevoValor > maxSentados) {
+            JOptionPane.showMessageDialog(this, "No se puede superar la capacidad sentada de " + maxSentados);
+            jComboBoxCap12.setSelectedIndex(valorAnterior);
+            return;
         }
+        if (totalAntes + nuevoValor + personasBarra > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCap12.setSelectedIndex(valorAnterior);
+            return;
+        }
+        ocupacionMesas[11] = nuevoValor;
+        actualizarContadores();
     }//GEN-LAST:event_jComboBoxCap12ActionPerformed
 
     private void jComboBoxCapBarraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxCapBarraActionPerformed
-        String restaurante = "restaurante";
-        refresh(restaurante);
+        int valorAnterior = personasBarra;
+        int nuevoValor = Integer.parseInt(jComboBoxCapBarra.getSelectedItem().toString());
+        int sentados = 0;
         if (jComboBoxCapBarra.getSelectedItem().toString() == "12") {
             jLabelBarra.setBackground(Color.red);
-        } else {
+        } else if (jComboBoxCapBarra.getSelectedItem().toString() == "0") {
             jLabelBarra.setBackground(Color.green);
+        } else {
+            jLabelBarra.setBackground(Color.yellow);
         }
-    }//GEN-LAST:event_jComboBoxCapBarraActionPerformed
-
-    public int refresh() {
-        JComboBox[] caps = {
-            jComboBoxCap1, jComboBoxCap2, jComboBoxCap3, jComboBoxCap4,
-            jComboBoxCap5, jComboBoxCap6, jComboBoxCap7, jComboBoxCap8,
-            jComboBoxCap9, jComboBoxCap10, jComboBoxCap11, jComboBoxCap12
-        };
-
-        int numGlobal = 0;
         
-        for (int i = 0; i < caps.length; i++) {
-            numGlobal += Integer.parseInt(caps[i].getSelectedItem().toString());
+        for (int o : ocupacionMesas) sentados += o;
+        if (sentados + nuevoValor > maxTotal) {
+            JOptionPane.showMessageDialog(this, "Capacidad total (mesas + barra) excedida");
+            jComboBoxCapBarra.setSelectedIndex(valorAnterior);
+            return;
         }
-
-        jLabelNumMesa.setText("En mesa: " + numGlobal + " / 54");
-        return numGlobal;
-    }
-    
-    public void refresh(String nombre) {
-        int numBarra = Integer.parseInt(jComboBoxCapBarra.getSelectedItem().toString());
-        int numMesa = refresh();
-        if (numMesa >= 48) {
-            
-        }
-    }
+        personasBarra = nuevoValor;
+        actualizarContadores();
+    }//GEN-LAST:event_jComboBoxCapBarraActionPerformed
     
     /**
      * @param args the command line arguments

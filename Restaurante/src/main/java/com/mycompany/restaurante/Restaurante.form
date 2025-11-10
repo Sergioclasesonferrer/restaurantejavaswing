@@ -199,17 +199,17 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabelNumMesa">
       <Properties>
-        <Property name="text" type="java.lang.String" value="En mesa: 0 / 54"/>
+        <Property name="text" type="java.lang.String" value="En mesas: 0 / 54"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelNumBarra">
       <Properties>
-        <Property name="text" type="java.lang.String" value="En barra: "/>
+        <Property name="text" type="java.lang.String" value="En barra: 0 / 12"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelNumRestaurante">
       <Properties>
-        <Property name="text" type="java.lang.String" value="En restaurante: 0 / 60"/>
+        <Property name="text" type="java.lang.String" value="Total en restaurante: 0 / 60"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabelMesa1">
@@ -219,11 +219,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 1"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -234,11 +229,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 2"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -249,11 +239,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 3"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -264,11 +249,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 4"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -279,11 +259,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 5"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -294,11 +269,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 6"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -309,11 +279,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 7"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -324,11 +289,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 8"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -339,11 +299,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 9"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -354,11 +309,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 10"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -369,11 +319,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 11"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -384,11 +329,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Mesa 12"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
@@ -639,11 +579,6 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Barra"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-            <BevelBorder/>
-          </Border>
-        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
     </Component>
